@@ -1,0 +1,45 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-image: url("../images/psg_college_view.jpg");
+    background-size: cover; 
+    background-position-y: -500px;
+    text-align: center;  
+    margin: 0;  
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #333;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #004c94;
+}

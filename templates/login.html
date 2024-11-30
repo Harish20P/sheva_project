@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/css/admin.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="/login" method="POST">
+        <label for="role">Role:</label><br>
+        <select id="role" name="role" required>
+            <option value="admin">Admin</option>
+            <option value="student">Student</option>
+        </select><br><br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="login-username" name="username" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="login-password" name="password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
